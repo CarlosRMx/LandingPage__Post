@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Open+Sans:ital@0;1&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./normalize.css">
   <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/e2a7d0a03e.js" crossorigin="anonymous"></script>
   <title>Component</title>
 </head>
 <body>
@@ -37,11 +38,19 @@
           <p class="card__information--date">28 Junio 2022</p>
         </div>
         <figure class="card__share">
-          <img src="./images/icon-share.svg" alt="icon_Share">
+          <img id="share" src="./images/icon-share.svg" alt="icon_Share">
+          <div class="card__socialMedia">
+            <span>SHARE</span>
+            <a class="icons" href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="icons" href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a class="icons" href="#"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
         </figure>
       </div>
     </div>
    </section>
   </main>
+
+  <script src="/JS/main.js"></script>
 </body>
 </html>
