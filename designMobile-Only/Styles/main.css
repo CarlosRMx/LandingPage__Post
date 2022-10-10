@@ -1,0 +1,20 @@
+:root{
+    --veryDarkBlue:hsl(217, 19%, 35%);
+    --desaturatedDarkBlue: hsl(214, 17%, 51%);
+    --grayishBlue: hsl(212, 23%, 69%);
+    --lightGrayish:hsl(210, 46%, 95%);
+    --white:#ffffff;
+
+    /*font letter*/
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    /* size letter */
+    --sm:1.4rem;
+    --md:1.6rem;
+    --lg:1.8rem;
+}
+body{
+    font-size: 62.5%;
+}
