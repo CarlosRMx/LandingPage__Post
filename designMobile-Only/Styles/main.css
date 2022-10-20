@@ -11,10 +11,122 @@
     font-family: 'Poppins', sans-serif;
 
     /* size letter */
+    font-size: 62.5%;
     --sm:1.4rem;
     --md:1.6rem;
     --lg:1.8rem;
 }
 body{
-    font-size: 62.5%;
+    background-color: var(--lightGrayish);
+    padding: 4rem 0;
+    margin: auto 0;
+}
+figure{
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.post__card{
+    width: 80%;
+    height: auto;
+    min-width: 23.3rem;
+    max-width: 48.8rem;
+    margin: 0 auto;
+    border-radius: 1.4rem;
+    background-color: var(--white);
+}
+.post__card figure img{
+    width: 100%;
+    border-top-left-radius:1.4rem ;
+    border-top-right-radius: 1.4rem;
+    object-fit: cover;
+}
+.post__information{
+    margin-top: 4rem;
+    padding: 0 1.8rem;
+}
+.post__tittle{
+    margin-top: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--veryDarkBlue);
+}
+.post__content{
+    font-size: var(--sm);
+    line-height: 2rem;
+    color: var(--veryDarkBlue);
+}
+.post__share{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.8rem;
+    padding: 1.8rem;
+}
+.post__left{
+    display: flex;
+    gap: 1.2rem;
+}
+.post__profile{
+    display: block;
+    width: 2.6rem;
+    height: 2.6rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    background-image: url("../images/avatar-michelle.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.post__btn span{
+    display: block;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 2rem;
+    background-color: var(--grayishBlue);
+    background-image: url("../images/icon-share.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1.6rem;
+}
+
+.post__icons{
+    display: none;
+    gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 4.8rem;
+    border-bottom-left-radius: 1.4rem;
+    border-bottom-right-radius: 1.4rem;
+    background-color: var(--veryDarkBlue);
+}
+
+.post__icons .post__item span{
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.post__item--info{
+    font-size: var(--sm);
+    color: var(--white);
+}
+.post__item--fb span{
+    background-image: url("../images/icon-facebook.svg");
+}
+.post__item--tw span{
+    background-image: url("../images/icon-twitter.svg");
+}
+.post__item--pts span{
+    background-image: url("../images/icon-pinterest.svg");
+}
+
+.display{
+    display: flex;
 }
