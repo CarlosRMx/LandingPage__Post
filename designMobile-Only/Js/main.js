@@ -35,11 +35,9 @@ function rebuild(){
 
     iconsContainer.classList.add("display");
     
-    console.log(iconsContainer.children.length);
     const elimaritem=document.querySelector(".post__btn");
 
     if(iconsContainer.children.length === 4){
-        console.log('Lo elimine');
         iconsContainer.appendChild(btnAuxContainer);
     }else if (iconsContainer.children.length===5){
         iconsContainer.appendChild(btnAuxContainer);
