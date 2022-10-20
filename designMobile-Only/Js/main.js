@@ -41,9 +41,11 @@ function rebuild(){
     if(iconsContainer.children.length === 4){
         console.log('Lo elimine');
         iconsContainer.appendChild(btnAuxContainer);
-    }else{
+    }else if (iconsContainer.children.length===5){
+        iconsContainer.appendChild(btnAuxContainer);
         iconsContainer.removeChild(elimaritem);
     }
+    
     console.log(iconsContainer.children.length);
 
     setTimeout(() => {
