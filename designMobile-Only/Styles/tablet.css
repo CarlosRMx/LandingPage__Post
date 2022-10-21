@@ -1,0 +1,15 @@
+.post__card{
+    max-width: 54.2rem;
+}
+.post_author,
+.post__date{
+    font-size: 1.4rem;
+}
+.post__profile{
+    width: 4.2rem;
+    height: 4.2rem;
+}
+.post__btn span{
+    width: 3.2rem;
+    height: 3.2rem;
+}

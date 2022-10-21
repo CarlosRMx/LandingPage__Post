@@ -1,0 +1,24 @@
+figure{
+    margin: 0;
+}
+.main{
+    margin: auto 0;
+    padding: 10rem 0;
+}
+.post__card{
+    display: flex;
+}
+.post__card--left{
+    width: 80%;
+}
+.post__card figure img{
+    width: 100%;
+    height: 50vh;
+    border-bottom-left-radius:1.4rem;
+    border-top-right-radius: 0;
+    object-fit: cover;
+}
+.post__icons{
+    margin-top: 3.96rem;
+    border-bottom-left-radius: 0;
+}
